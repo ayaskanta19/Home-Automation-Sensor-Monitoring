@@ -10,3 +10,8 @@ Replace LEDs in the circuit diagram with Electromagnetic / Solid-State Relays, c
 Installation of ESP8266 (NodeMCU) Support in the Arduino IDE required prior to compilation of the program.
 
 Standard Arduino Microcontroller Boards (Uno, Nano, Mega, LilyPad, etc.) with ESP8266WiFi Integration can be used instead of ESP8266 (NodeMCU).
+
+# Circuit-Diagram
+<p align="center">
+  <img src="circuit_diagram.png" alt="Circuit-Diagram" width="500"/>
+</p>
