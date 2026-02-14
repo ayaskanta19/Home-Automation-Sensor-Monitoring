@@ -1,0 +1,26 @@
+button {
+	width: 28.27em;
+	height: 20.45em;
+}
+
+.red, .green, .yellow, .reset {
+	color: white;
+	cursor: pointer;
+	font-family: russo one;
+}
+
+.red {
+	background-color: red;
+}
+
+.green {
+	background-color: green;
+}
+
+.yellow {
+	background-color: yellow;
+}
+
+.reset {
+	background-color: blue;
+}

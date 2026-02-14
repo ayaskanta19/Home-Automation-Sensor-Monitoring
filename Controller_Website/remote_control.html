@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>remote_control</title>
+	<link rel="stylesheet" type="text/css" href="remote_style.css">
+	<script type="text/javascript">
+		function red() {	location.href = "remote_data_write.php?led=red";	}
+		function green() {	location.href = "remote_data_write.php?led=green";	}
+		function yellow() {	location.href = "remote_data_write.php?led=yellow";	}
+		function reset() {	location.href = "remote_data_write.php?led=reset";	}
+	</script>
+</head>
+<body>
+	<button class="red" onclick="red()">RED</button>
+	<button class="green" onclick="green()">GREEN</button>
+	<button class="yellow" onclick="yellow()">YELLOW</button>
+	<button class="reset" onclick="reset()">RESET</button>
+</body>
+</html>

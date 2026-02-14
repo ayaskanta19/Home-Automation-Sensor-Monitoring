@@ -1,0 +1,13 @@
+.wall {
+	background-color: #1CB4DA;
+	border: 50px solid #043845;
+}
+
+.desc, .data {
+	font-size: 95px;
+	font-family: russo one;
+}
+
+.data {
+	color: white;
+}
